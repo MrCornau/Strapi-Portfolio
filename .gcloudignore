@@ -3,4 +3,5 @@ app.yaml
 .git
 .gitignore
 node_modules/
+google-cloud-sdk/
 #!include:.gitignore

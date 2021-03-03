@@ -113,4 +113,6 @@ exports
 .cache
 build
 
+google-cloud-sdk
+
 app.yaml
