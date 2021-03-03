@@ -7,6 +7,9 @@ module.exports = ({ env }) => ({
         region: env('AWS_REGION'),
         params: {
           Bucket: env('AWS_BUCKET_NAME'),
+        localServer: {
+            maxage: 300000
+          }
         },
       },
     },
