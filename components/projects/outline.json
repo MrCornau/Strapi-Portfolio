@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projects_outlines",
+  "info": {
+    "name": "Outline",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "project_info": {
+      "type": "string"
+    },
+    "project_role": {
+      "type": "string"
+    }
+  }
+}

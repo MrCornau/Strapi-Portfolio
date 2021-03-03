@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_more_info_team_mates",
+  "info": {
+    "name": "More_Information_Content",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Supervisors": {
+      "type": "json"
+    },
+    "TeamMates": {
+      "type": "json"
+    },
+    "Dokumentation": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

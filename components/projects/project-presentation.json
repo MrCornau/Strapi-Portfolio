@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_projects_project_presentations",
+  "info": {
+    "name": "projectPresentation",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description_Presentation": {
+      "type": "string"
+    },
+    "content_video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "scroll": {
+      "type": "boolean"
+    },
+    "Content": {
+      "type": "json"
+    },
+    "Kind": {
+      "type": "enumeration",
+      "enum": [
+        "Desktop",
+        "Phone",
+        "Other"
+      ]
+    }
+  }
+}

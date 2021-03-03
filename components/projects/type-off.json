@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projects_type_offs",
+  "info": {
+    "name": "TypeOff",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "Frames": {
+      "type": "json"
+    },
+    "ButtonNames": {
+      "type": "json"
+    }
+  }
+}

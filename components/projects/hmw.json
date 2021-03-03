@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_projects_hmws",
+  "info": {
+    "name": "HMW",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HowMightWe": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

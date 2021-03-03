@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_me_pages",
+  "info": {
+    "name": "aboutMePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutMeIntro": {
+      "type": "text"
+    },
+    "AboutMeImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "HowIWork": {
+      "type": "text"
+    },
+    "HowIWorkImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ProfessionalExperience": {
+      "type": "json"
+    },
+    "Education": {
+      "type": "json"
+    },
+    "Awards": {
+      "type": "json"
+    },
+    "AwardsBatches": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "AboutMeText": {
+      "type": "text"
+    },
+    "AboutMeGalery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Contact": {
+      "type": "json"
+    },
+    "aboutMeIntro2": {
+      "type": "richtext"
+    }
+  }
+}

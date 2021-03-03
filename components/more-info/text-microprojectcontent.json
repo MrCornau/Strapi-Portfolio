@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_more_info_text_microprojectcontents",
+  "info": {
+    "name": "TextMicroprojectcontent",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "AATextContainer": {
+      "type": "richtext"
+    }
+  }
+}

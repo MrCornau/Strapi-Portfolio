@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_more_info_microprojectcontents",
+  "info": {
+    "name": "Microprojectcontent",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TextMicroprojectcontent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "more-info.text-microprojectcontent"
+    },
+    "ImageMicroprojectcontent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "more-info.image-microprojectcontent"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_more_info_image_microprojectcontents",
+  "info": {
+    "name": "ImageMicroprojectcontent",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "ImageContainer_Micro": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_projects_the_problems",
+  "info": {
+    "name": "The Problem",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Problem_text": {
+      "type": "text"
+    },
+    "Problem_illustration": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
